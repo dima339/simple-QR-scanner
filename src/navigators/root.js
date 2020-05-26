@@ -1,16 +1,16 @@
-import {createStackNavigator} from 'react-navigation';
-import Scanner from '../screens/scanner';
-import Start from '../screens/start';
+import { createStackNavigator } from 'react-navigation'
+import Scanner from '../screens/scanner'
+import Start from '../screens/start'
 
 const RootNavigator = createStackNavigator({
-    Scanner: {
-        screen: Scanner
-    },
-    Start: {
-        screen: Start
-    }
+  Scanner: {
+    screen: Scanner
+  },
+  Start: {
+    screen: Start
+  }
 }, {
-    headerMode: 'none',
-});
+  headerMode: 'none'
+})
 
-export default RootNavigator;
+export default RootNavigator

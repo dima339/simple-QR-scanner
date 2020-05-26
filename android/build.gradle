@@ -33,7 +33,9 @@ allprojects {
 }
 
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.7'
+
+wrapper {
+    gradleVersion = '5.5'
     distributionUrl = distributionUrl.replace("bin", "all")
 }
+
